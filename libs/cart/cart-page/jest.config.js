@@ -1,7 +1,7 @@
 module.exports = {
   preset: '../../../jest.preset.js',
   transform: {
-    '^.+\\.[tj]sx?$': 'ts-jest',
+    '^.+\\.[tj]sx?$': '@swc/jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
   coverageDirectory: '../../../coverage/libs/cart/cart-page',
